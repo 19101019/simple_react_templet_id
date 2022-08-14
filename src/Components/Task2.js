@@ -22,10 +22,11 @@ import EE from "./chart.png"
 export default class Task2 extends Component {
   render() {
     return (
-      <div className='container-fluid'>
+      <div className='container-flui'>
                                {/* ...........Page1............. */}
-        <div className='page1'>
+                               <div className='page1'>
           <div className='container-fulid'>
+          
         <div className='col-md'>
                    <div className="navbar navabr-brand">
                                 <Link to="#" className="nav-link text-white"><button type="button" class="btn btn px-4 mx-5" id="Navbarlogo"><b>Logo</b></button></Link>
@@ -51,18 +52,17 @@ export default class Task2 extends Component {
                     </div>
                     <label id="icon"><i class="fa fa-bars"></i></label>
 
-                         
-        </div>
+                    </div>
                              {/* .............Page2................. */}
-        <div className='page2'> 
-          <div className='container'>                           
+        <div className='page2 pt-5'> 
+          <div className='container p-2'>                           
               <div className='row'>                
-                <div className='col-md-7 mb-3'>
-                <p className='h3'><b>Lorem, ipsum dolor sit <br/>amet consectetur<br/> adipisicing elit.</b></p><br/>
-                <small className='text-muted'>Lorem ipsum dolor sit amet consectetur, <br/>adipisicing elit. Facilisi tincidunt volutpat <br/>vestibulum,massa,imperdiet</small>
+                <div className='col-md-8 mb-3'>
+                <p className='h1'><b>Lorem, ipsum dolor sit <br/>amet consectetur<br/> adipisicing elit.</b></p><br/>
+                <p className=' h5 text-muted'>Lorem ipsum dolor sit amet consectetur, <br/>adipisicing elit. Facilisi tincidunt volutpat <br/>vestibulum,massa,imperdiet</p>
                 </div>
-                <div className='col-md-5'>
-                <img src={Logo} alt="Img" height="250px" width="100%" />
+                <div className='col-md-4'>
+                <img src={Logo} alt="Img" height="300px" width="100%" />
                 </div>                
                 </div>
                 <div className='row'>
@@ -84,8 +84,8 @@ export default class Task2 extends Component {
             <div className='container'>
         <div className='row'>
             <div className='col-md-5 p-4 mt-5'>
-                <p><b>Lorem ipsum dolor sit amet <br></br>consectetur</b></p>
-                <h2 className='text-light'>Our Choices <br></br>with different <br></br>technology</h2>
+                <p className='h5'><b>Lorem ipsum dolor sit amet <br></br>consectetur</b></p>
+                <h2 className=' h1 text-light'>Our Choices <br></br>with different <br></br>technology</h2>
             </div>
 
 
@@ -103,12 +103,12 @@ export default class Task2 extends Component {
          </div>
          </div>           
                             {/* .............Page4............ */}
-        <div className='page4'>
+        <div className='page4 pt-5 mb-5'>
           <div className='container mb-3'>
           <div className='row'>
           <div className='col-sm '>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-            <h3>Trending Freelancer</h3>
+            <p className='h5 page4text'>Lorem ipsum dolor sit amet consectetur</p>
+            <h3 className='h1'>Trending Freelancer</h3>
           </div>
           <div className='col-sm mt-5'>
             <span className='float-end'>
@@ -121,10 +121,13 @@ export default class Task2 extends Component {
 
         <div className='row mt-4'>
           <div className='col'>
-            <div className='card'>
-              <div className='card-header page4Ime1 '>
-                {/* <img src={A} alt="Img" width={100}/> */}
-                <div className='pageColor'></div>
+
+          {/* <div className='page4Ime1'></div> */}
+            <div className='card page4card' >
+            
+              <div className='card-header ' id='page4Head1'>
+                {/* <img src={A} alt="Img"/> */}
+                
               
               </div>
             
@@ -134,11 +137,11 @@ export default class Task2 extends Component {
             <span className=' text-muted '><small>Backend Developer</small></span><br/>
             <span className=''><b>5.0</b> <i class="fa-solid fa-star text-warning" ></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></span>
                   </div>
-                  <div className='row'>
+                  <div className='row mx-2'>
                       <div className="col">
-                        <i class="fa-solid fa-user"></i><br/>
-                        <span>Clients</span><br/>
-                         <span>100 +</span>
+                      <i class="fa-solid fa-briefcase"></i><br/>
+                  <span>Projects</span><br/>
+                  <span>90 +</span>
                       </div>
                       <div className="col">
                       <i class="fa-solid fa-user"></i><br/>
@@ -151,7 +154,7 @@ export default class Task2 extends Component {
           </div>
           <div className='col'>
             <div className='card'>
-              <div className='card-header page4Ime2'>
+              <div className='card-header' id='page4Head2'>
 
               </div>
                 <div className='card-body'>
@@ -160,7 +163,7 @@ export default class Task2 extends Component {
             <span className=' text-muted '><small>React Developer</small></span><br/>
             <span className=''><b>5.0</b> <i class="fa-solid fa-star text-warning" ></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></span>
              </div>
-                  <div className='row'>
+                  <div className='row mx-2'>
                       <div className="col">
                       <i class="fa-solid fa-briefcase"></i><br/>
                   <span>Projects</span><br/>
@@ -177,7 +180,7 @@ export default class Task2 extends Component {
           </div>
           <div className='col'>
             <div className='card'>
-              <div className='card-header page4Ime3'>
+              <div className='card-header' id='page4Head3'>
 
               </div>
                 <div className='card-body'>
@@ -186,7 +189,7 @@ export default class Task2 extends Component {
             <span className=' text-muted '><small>IOS Developer</small></span><br/>
             <span className=''><b>5.0</b> <i class="fa-solid fa-star text-warning" ></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></span>
              </div>
-                  <div className='row'>
+                  <div className='row mx-2'>
                       <div className="col">
                       <i class="fa-solid fa-briefcase"></i><br/>
                   <span>Projects</span><br/>
@@ -203,7 +206,7 @@ export default class Task2 extends Component {
           </div>
           <div className='col'>
             <div className='card'>
-              <div className='card-header page4Ime4'>
+              <div className='card-header' id='page4Head4'>
 
               </div>
                 <div className='card-body'>
@@ -212,7 +215,7 @@ export default class Task2 extends Component {
             <span className=' text-muted '><small>Graphics Designer</small></span><br/>
             <span className=''><b>5.0</b> <i class="fa-solid fa-star text-warning" ></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></span>
              </div>
-                  <div className='row'>
+                  <div className='row mx-2'>
                       <div className="col">
                       <i class="fa-solid fa-briefcase"></i><br/>
                   <span>Projects</span><br/>
@@ -229,7 +232,7 @@ export default class Task2 extends Component {
           </div>
           <div className='col'>
             <div className='card'>
-              <div className='card-header page4Ime5'>
+              <div className='card-header' id='page4Head5'>
                 
 
               </div>
@@ -239,11 +242,11 @@ export default class Task2 extends Component {
             <span className=' text-muted '><small>Graphics Designer</small></span><br/>
             <span className=''><b>5.0</b> <i class="fa-solid fa-star text-warning " ></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i></span>
              </div>
-                  <div className='row'>
+                  <div className='row mx-2'>
                       <div className="col">
-                        <i class="fa-solid fa-user"></i><br/>
-                        <span>Clients</span><br/>
-                         <span>100 +</span>
+                      <i class="fa-solid fa-briefcase"></i><br/>
+                  <span>Projects</span><br/>
+                  <span>90 +</span>
                       </div>
                       <div className="col">
                       <i class="fa-solid fa-user"></i><br/>
@@ -259,7 +262,7 @@ export default class Task2 extends Component {
         </div>
         </div>
                                   {/* ...........page5............ */}
-        <div className='page5'>
+        <div className='page5 pt-4 pb-4'>
           <div className='container'>
           <div className='row'>
             <div className='col-md-6 forthpageImg'>
@@ -296,23 +299,27 @@ export default class Task2 extends Component {
         </div>
         </div>
                                       {/* ...........page6............ */}
-        <div className='page6'>
+        <div className='page6 pt-5 pb-5'>
           <div className='container text-center'>
           <div className="row">
             <div className="col">
                 <div className="row">
-                    <small>Lorem ipsum dolor sit amet consectetur</small>
-                    <h3>Features for your Growth</h3>
+                    <p className='h5 page4text'>Lorem ipsum dolor sit amet consectetur</p>
+                    <h3 className='h1'>Features for your Growth</h3>
                 </div>
                 <div className='row FifthpageRow'>
-                  <div className='col m-5 p-5 fifthpageBI'><p className='h2 text-info'><i class="fa-solid fa-code"></i></p><p> <b>Programming</b></p></div>
-                  <div className='col m-5 p-5 fifthpageBI'><p className='h2 text-info'><i class="fa-solid fa-music"></i></p><p> <b>Music</b></p></div>
-                  <div className='col m-5 p-5 fifthpageBI'><p className='h2 text-info'><i class="fa-solid fa-comments-dollar"></i></p><p> <b>Digital Marketing</b></p></div>
-                  <div className='col m-5 p-5 fifthpageBI'><p className='h2 text-info'><i class="fa-solid fa-pen-ruler"></i></p><p> <b>Design & Art</b></p></div>
-                  <div className='col m-5 p-5 fifthpageBI'><p className='h2 text-info'><i class="fa-solid fa-calculator"></i></p><p> <b>Finance</b></p></div>
-                  <div className='col m-5 p-5 fifthpageBI'><p className='h2 text-info'><i class="fa-solid fa-file-pen"></i></p><p> <b>Content</b></p></div>
-                  <div className='col m-5 p-5 fifthpageBI'><p className='h2 text-info'><i class="fa-solid fa-chart-simple"></i></p><p> <b>Sales & Marketing</b></p></div>
-                  <div className='col m-5 p-5 '></div>
+                  <div className='row'>
+                  <div className='col m-4 p-3 fifthpageBI'><p className='h1 text-info'><i class="fa-solid fa-code"></i></p><p> <b>Programming</b></p></div>
+                  <div className='col m-4 p-3 fifthpageBI'><p className='h1 text-info'><i class="fa-solid fa-music"></i></p><p> <b>Music</b></p></div>
+                  <div className='col m-4 p-3 fifthpageBI'><p className='h1 text-info'><i class="fa-solid fa-comments-dollar"></i></p><p> <b>Digital Marketing</b></p></div>
+                  <div className='col m-4 p-3 fifthpageBI'><p className='h1 text-info'><i class="fa-solid fa-pen-ruler"></i></p><p> <b>Design & Art</b></p></div>
+                  </div>
+                  <div className='row'>
+                  <div className='col m-4 p-3 fifthpageBI'><p className='h1 text-info'><i class="fa-solid fa-calculator"></i></p><p> <b>Finance</b></p></div>
+                  <div className='col m-4 p-3 fifthpageBI'><p className='h1 text-info'><i class="fa-solid fa-file-pen"></i></p><p> <b>Content</b></p></div>
+                  <div className='col m-4 p-3 fifthpageBI'><p className='h1 text-info'><i class="fa-solid fa-chart-simple"></i></p><p> <b>Sales & Marketing</b></p></div>
+                  <div className='col m-4 p-3 '></div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -320,7 +327,7 @@ export default class Task2 extends Component {
           </div>
         </div>
                                          {/* ...........page7............ */}
-        <div className='page7'>
+        <div className='page7 pt-4 pb-4'>
           <div className='container'>
           <div className='row'>
             <div className='col-md p-5'>
