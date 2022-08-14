@@ -1,0 +1,208 @@
+                      /* Page1 */
+.page1,.page2{
+    background-color:#E7FFFB;
+}
+#Navbarlogo{
+    background-color: #0AB79B;
+    color: #f1f1f1;
+}
+#Navbarlogo:hover{
+    border: 2px solid #0AB79B;    
+}
+.nav{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+}
+.nav li{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;    
+}
+
+#icon {
+    color: black;
+    font-size: 30px;
+    margin-top: -100px;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #icon {
+        display: block;
+        margin-top: -50px;
+    }
+    #menu{
+        display: none;
+    }
+    
+}
+                   /* ...........Page2............ */
+.form{
+    position: relative;
+    
+}
+.form .fa-search{
+    position: absolute;
+    color: #9ca3af;
+    font-size: 20px;
+    padding: 20px;
+    
+}             
+.form-control{
+    width: 100%;
+    height: 60px;
+    text-indent: 50px;
+    border-radius: 25px;
+    border: 1px solid #0AB79B;    
+}
+                           /* ..............Page3............... */
+.page3{
+background-color: #0AB79B;
+}
+.con1 {
+    position: relative;
+    margin: 0 auto; /* Center it */
+    
+  }
+  .con1 img{
+    margin: 10px;
+  }
+  .cont{
+    margin: 0 0 30px 15px;
+  }
+  .con1 .cont {
+    position: absolute; 
+    bottom: 0;     
+    color: #f1f1f1; 
+    width: 60%;
+  }
+
+
+                       /* ............Page4.............. */
+#page4Btn{
+    background-color: #D9D9D9;
+}
+.page4Ime1{
+    background-image: url(.//../src/Components/A.png);
+    background-repeat: no-repeat;
+    
+    z-index: 1;
+    height: 200px;
+    /* background-image: linear-gradient(to bottom, white,white,white,#905DE6 25%); */
+}
+
+
+.page4Ime2{
+    background-image: url(.//../src/Components/B.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 200px;
+    /* background-image: linear-gradient(to bottom, white,white,white,#40C888 25%);  */
+}
+.page4Ime3{
+    background-image: url(.//../src/Components/C.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 200px;
+    /* background-image: linear-gradient(to bottom, white,white,white,#35BCD4 25%); */
+}
+.page4Ime4{
+    background-image: url(.//../src/Components/D.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 200px; 
+    /* background-image: linear-gradient(to bottom, white,white,white,#FEB320 25%); */
+}
+.page4Ime5{
+    background-image: url(.//../src/Components/E.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    height: 200px;
+    /* background-image: linear-gradient(to bottom, white,white,white,#CB27CE 25%); */
+    
+    
+}
+.card-body{
+    background-color: #E7FFFB;
+}
+             /* ...............Page5........... */
+.page5{
+    background-color: #0AB79B;
+}
+.forthpageImg img{
+    width: 60%; 
+    padding:20px 0px 20px 0px;
+ 
+    
+}
+.page6{
+    background-color: #E7FEFA;
+    
+
+}
+.fifthpageBI{
+    border: 2px solid #0AB79B;
+    border-radius: 10px;
+    width: 22%;
+    
+}
+
+.fifthpageBI p i{
+    color: #0AB79B;
+}
+
+                        /* .............page7............. */
+.page7{
+    background-color: #0AB79B;
+}
+#SixpageCon{
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#Inputbox{
+    border: 1px solid #0AB79B;
+}
+#sixpageBTN{
+    width: 100%;
+}
+
+                               /* ...........page8........... */
+.page8{
+    background-color:#FFFFFF;
+}
+#LogoBTN1{
+    background-color: #0AB79B;
+}
+                      
+                    .ImgCon1{
+                        background-image: linear-gradient(to bottom, white,white,white,#905DE6 25%);
+                        border-radius: 20px;
+                    }
+                    .ImgCon2{
+                        background-image: linear-gradient(to bottom, white,white,white,#40C888 25%);
+                        border-radius: 15px;
+                    }
+                    .ImgCon3{
+                        background-image: linear-gradient(to bottom, white,white,white,#35BCD4 25%);
+                        border-radius: 15px;
+                    }
+                    .ImgCon4{
+                        background-image: linear-gradient(to bottom, white,white,white,#FEB320 25%);
+                        border-radius: 15px;
+                    }
+                    .ImgCon5{
+                        background-image: linear-gradient(to bottom, white,white,white,#CB27CE 25%);
+                        border-radius: 15px;
+                    }
+                    
+                    
+
+
+
