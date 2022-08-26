@@ -34,7 +34,7 @@
   justify-content: center;
   flex-direction: column-reverse;
 }
-.features-name p{
+.features-name p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -42,4 +42,23 @@
   line-height: 33px;
   padding-top: 2rem;
   color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  .features-containers {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .features-img {
+    margin: 10px;
+    width: 167px;
+    height: 210px;
+    background: rgba(235, 235, 235, 0.15);
+    border: 3px solid #0ab79b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
 }

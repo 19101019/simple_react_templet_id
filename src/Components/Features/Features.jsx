@@ -10,7 +10,7 @@ const Features = () => {
       </div>
       <div className="container">
         <div className="">
-          <div className="row">
+          <div className="row features-containers">
             <div className="col-md-3 col-6 features-img">
               <div className="features-name">
                 <p>Programming</p>

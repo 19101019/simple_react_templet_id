@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { AiFillStar } from "react-icons/ai";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import "./Freelancer.css";
+import ellips1 from "../assests/Ellipse 5.png"
+import ellips2 from "../assests/Ellipse 6.png"
 
 const Freelancer = () => {
   const [freelancers, setFreelancers] = useState([]);
@@ -36,11 +38,15 @@ const Freelancer = () => {
               />
             </div>
           </div>
+          <div>
+            <img className="ellips2" src={ellips2} alt="" />
+            <img className="ellips1" src={ellips1} alt="" />
+          </div>
         </div>
         <div className="row">
           {freelancers.map((freelancer) => (
             <div key={freelancer.id} className="col-md-2 ms-auto mb-5">
-              <div className="card f-card h-100">
+              <div className="card f-card h-100 d-block m-auto">
                 <img
                   style={{ height: "102px", width: "102px" }}
                   src={freelancer.img}
