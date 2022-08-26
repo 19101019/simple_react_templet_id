@@ -1,0 +1,64 @@
+.f-slider {
+  margin: 50px 5%;
+}
+.f-heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0ab79b;
+}
+.f-heading h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000000;
+}
+.f-card {
+  width: 230px;
+  height: 360px;
+  background: #e7fffb;
+  border-radius: 20px;
+  margin-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.f-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
+.f-des {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #b1b1b1;
+}
+.f-position {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 3px;
+
+  color: #888888;
+}
+.setting-btn {
+  width: 75px;
+  height: 36px;
+  background-color: #000000;
+  border-radius: 6px;
+}
+.setting-btn1 {
+  width: 75px;
+  height: 36px;
+  background-color: #D9D9D9;
+  border-radius: 6px;
+  margin-right: 8px;
+}
