@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AiFillStar } from "react-icons/ai";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import ellips1 from "../assests/Ellipse 5.png";
@@ -8,6 +8,8 @@ import "./Freelancer.css";
 
 const Freelancer = () => {
   const [freelancers, setFreelancers] = useState([]);
+  const sliderRef = useRef(null);
+  console.log(sliderRef.current)
 
   useEffect(() => {
     fetch("/freelancer.json")
@@ -21,6 +23,8 @@ const Freelancer = () => {
      slidesToShow: 4,
      slidesToScroll: 4,
      initialSlide: 0,
+     autoplay: true,
+      autoplaySpeed: 2000,
      responsive: [
        {
          breakpoint: 1024,
@@ -48,6 +52,7 @@ const Freelancer = () => {
        },
      ],
    };
+  //  
   return (
     <>
       <section className="f-slider">
@@ -58,19 +63,30 @@ const Freelancer = () => {
           </div>
           <div className="d-flex justify-content-center align-items-center  fre-res">
             <div className="setting-btn1">
-              <img
-                className="d-block m-auto mt-2"
-                src="https://i.ibb.co/RcJSV3K/leftarrow.png"
-                alt=""
-              />
-         
+              <button
+                className="freela-btn"
+                style={{ outline: "none", background: "none", border: "none" }}
+                onClick={() => console.log(sliderRef.current.slickNext())}
+              >
+                <img
+                  className="d-block m-auto mt-2"
+                  src="https://i.ibb.co/RcJSV3K/leftarrow.png"
+                  alt=""
+                />
+              </button>
             </div>
             <div className="setting-btn">
-              <img
-                className="d-block m-auto mt-2"
-                src="https://i.ibb.co/TBLMRbh/rightarrow.png"
-                alt=""
-              />
+              <button
+                style={{ outline: "none", background: "none", border: "none" }}
+                className="freela-btn"
+                onClick={() => console.log(sliderRef.current.slickPrev())}
+              >
+                <img
+                  className="d-block m-auto mt-2"
+                  src="https://i.ibb.co/TBLMRbh/rightarrow.png"
+                  alt=""
+                />
+              </button>
             </div>
           </div>
         </div>
@@ -79,7 +95,7 @@ const Freelancer = () => {
           <img className="ellips1" src={ellips1} alt="" />
         </div>
         <div className="row">
-          <Slider {...settings}>
+          <Slider ref={sliderRef} {...settings}>
             {freelancers.map((freelancer) => (
               <div
                 key={freelancer.id}
