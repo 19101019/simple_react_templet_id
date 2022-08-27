@@ -11,7 +11,7 @@ const Features = () => {
       <div className="container">
         <div className="">
           <div className="row features-containers">
-            <div className="col-md-3 col-6 features-img">
+            <div className="col-md-3 col-md-4 col-6 features-img">
               <div className="features-name">
                 <p>Programming</p>
               </div>
@@ -19,7 +19,7 @@ const Features = () => {
                 <img src="https://i.ibb.co/L5nCkx2/Vector.png" alt="" />
               </div>
             </div>
-            <div className="col-md-3 col-6 features-img">
+            <div className="col-lg-3 col-md-4 col-6 features-img">
               <div className="features-name">
                 <p>Music</p>
               </div>
@@ -27,7 +27,7 @@ const Features = () => {
                 <img src="https://i.ibb.co/1ZLvNhh/music.png" alt="" />
               </div>
             </div>
-            <div className="col-md-3 col-6 features-img">
+            <div className="col-lg-3 col-md-4 col-6 features-img">
               <div className="features-name">
                 <p>Digital Marketing</p>
               </div>
@@ -35,7 +35,7 @@ const Features = () => {
                 <img src="https://i.ibb.co/cgZXYBp/social-media-1.png" alt="" />
               </div>
             </div>
-            <div className="col-md-3 col-6 features-img">
+            <div className="col-lg-3 col-md-4 col-6 features-img">
               <div className="features-name">
                 <p>Design & Art</p>
               </div>
@@ -43,7 +43,7 @@ const Features = () => {
                 <img src="https://i.ibb.co/t34mCmx/Expanded.png" alt="" />
               </div>
             </div>
-            <div className="col-md-3 col-6 features-img">
+            <div className="col-lg-3 col-md-4 col-6 features-img">
               <div className="features-name">
                 <p>Finance</p>
               </div>
@@ -51,7 +51,7 @@ const Features = () => {
                 <img src="https://i.ibb.co/t86nd79/Group-87.png" alt="" />
               </div>
             </div>
-            <div className="col-md-3 col-6 features-img">
+            <div className="col-lg-3 col-md-4 col-6 features-img">
               <div>
                 <img
                   src="https://i.ibb.co/J78R29M/content-writing-1.png"
@@ -62,7 +62,7 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-6 features-img">
+            <div className="col-lg-3 col-md-4 col-6 features-img">
               <div className="features-name">
                 <p>Sales & Marketing</p>
               </div>
