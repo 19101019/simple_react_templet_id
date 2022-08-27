@@ -8,20 +8,20 @@ const OurOffer = () => {
         <div className="row">
           <div className="col-md-6 col-12">
             <img
-              className="d-block m-auto mt-5"
+              className="d-block m-auto mt-5 offer-left-img"
               src="https://i.ibb.co/w7gVnQB/our-Offer-Section.png"
               alt=""
             />
           </div>
           <div className="col-md-6 col-12">
-            <div>
+            <div className="offer-headeing">
               <p
                 style={{
                   fontFamily: "Raleway",
                   fontWeight: "500",
                   marginTop: "94px",
                   marginBottom: "5px",
-                  fontSize: "22px"
+                  fontSize: "22px",
                 }}
               >
                 Lorem ipsum dolor sit amet, consectetur
@@ -31,7 +31,7 @@ const OurOffer = () => {
                   fontFamily: "Poppins",
                   fontWeight: "600",
                   color: "#FFFFFF",
-                  fontSize:"40px"
+                  fontSize: "40px",
                 }}
               >
                 What We Offer You !
