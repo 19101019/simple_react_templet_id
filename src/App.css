@@ -446,3 +446,34 @@ text-align: left;
 #LogoBTN1 {
     background-color: #0AB79B;
 }
+
+/* modal deign */
+.modal-content {
+    background-color: #e7fffb !important;
+}
+.login-input_box{
+        padding: 7px;
+            border-radius: 5px;
+            border: 1px solid #17a992;
+}
+.login-input_box:focus{
+    outline: 0px;
+}
+.or_border::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    margin-top: 15px;
+    background: #21252947;
+    margin-left: 40px;
+}
+.or_border::after{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    margin-top: 15px;
+    background: #21252947;
+    margin-left: -190px;
+}
