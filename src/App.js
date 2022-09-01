@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Task2 from "./Components/Task2";
-import Singup from "./Components/Singup/Singup";
 
 function App() {
   return (

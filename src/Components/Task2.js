@@ -262,10 +262,217 @@ export default class Task2 extends Component {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/singUp" className="nav-link text-light">
-                          <button type="button" className="btn btn-dark">
+                        <Link to="#" className="nav-link text-light">
+                          <button
+                            type="button"
+                            data-bs-toggle="modal"
+                            data-bs-target="#staticBackdropx1"
+                            className="btn btn-dark"
+                          >
                             Sign up
                           </button>
+                          <div className="modal fade" id="staticBackdropx1">
+                            <div className="modal-dialog modal-dialog-centered">
+                              <div className="modal-content py-2 px-2">
+                                <div className="row">
+                                  <div className="col-md-12">
+                                    <form className="row g-3">
+                                      <div className="col-md-6">
+                                        <label
+                                          for="inputEmail4"
+                                          className="form-label text-dark text-start d-block"
+                                        >
+                                          Email
+                                        </label>
+                                        <input
+                                          type="email"
+                                          className="form-control"
+                                          id="inputEmail4"
+                                        />
+                                      </div>
+                                      <div className="col-md-6">
+                                        <label
+                                          for="inputPassword4"
+                                          className="form-label text-dark text-start d-block"
+                                        >
+                                          Password
+                                        </label>
+                                        <input
+                                          type="password"
+                                          className="form-control"
+                                          id="inputPassword4"
+                                        />
+                                      </div>
+                                      <div className="col-12">
+                                        <label
+                                          for="inputAddress"
+                                          className="form-label text-dark text-start d-block"
+                                        >
+                                          Address
+                                        </label>
+                                        <input
+                                          type="text"
+                                          className="form-control"
+                                          id="inputAddress"
+                                          placeholder="1234 Main St"
+                                        />
+                                      </div>
+                                      <div className="col-12">
+                                        <label
+                                          for="inputAddress2"
+                                          className="form-label text-dark text-start d-block"
+                                        >
+                                          Address 2
+                                        </label>
+                                        <input
+                                          type="text"
+                                          className="form-control"
+                                          id="inputAddress2"
+                                          placeholder="Apartment, studio, or floor"
+                                        />
+                                      </div>
+                                      <div className="col-md-6">
+                                        <label
+                                          for="inputCity"
+                                          className="form-label text-dark text-start d-block"
+                                        >
+                                          City
+                                        </label>
+                                        <input
+                                          type="text"
+                                          className="form-control"
+                                          id="inputCity"
+                                        />
+                                      </div>
+                                      <div className="col-md-4">
+                                        <label
+                                          for="inputState"
+                                          className="form-label text-dark text-start d-block"
+                                        >
+                                          State
+                                        </label>
+                                        <select
+                                          id="inputState"
+                                          className="form-select"
+                                        >
+                                          <option selected>Choose...</option>
+                                          <option>...</option>
+                                        </select>
+                                      </div>
+                                      <div className="col-md-2">
+                                        <label
+                                          for="inputZip"
+                                          className="form-label text-dark text-start d-block"
+                                        >
+                                          Zip
+                                        </label>
+                                        <input
+                                          type="text"
+                                          className="form-control"
+                                          id="inputZip"
+                                        />
+                                      </div>
+                                      <div className="col-12">
+                                        <div className="form-check">
+                                          <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            id="gridCheck"
+                                          />
+                                          <label
+                                            className="form-check-label text-dark text-start d-block"
+                                            for="gridCheck"
+                                          >
+                                            Check me out
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <div className="col-12">
+                                        <button
+                                          type="submit"
+                                          className="btn btn-dark w-100"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#staticBackdropxx2"
+                                        >
+                                          Sign in
+                                        </button>
+                                        <div
+                                          className="modal fade"
+                                          id="staticBackdropxx2"
+                                        >
+                                          <div className="modal-dialog modal-dialog-centered">
+                                            <div
+                                              className="modal-content py-2 px-2 justify-content-center"
+                                              style={{ height: 600 }}
+                                            >
+                                              <h3 className="fw-bold text-dark text-start">
+                                                Email Information
+                                              </h3>
+                                              <p className="text-start text-dark">
+                                                Please Verify email address 8
+                                                digit
+                                              </p>
+                                              <div className="d-flex">
+                                                <input
+                                                  type="text"
+                                                  name=""
+                                                  id=""
+                                                  className="w-25 mx-1"
+                                                />
+                                                <input
+                                                  type="text"
+                                                  name=""
+                                                  id=""
+                                                  className="w-25 mx-1"
+                                                />
+                                                <input
+                                                  type="text"
+                                                  name=""
+                                                  id=""
+                                                  className="w-25 mx-1"
+                                                />
+                                                <input
+                                                  type="text"
+                                                  name=""
+                                                  id=""
+                                                  className="w-25 mx-1"
+                                                />
+                                                <input
+                                                  type="text"
+                                                  name=""
+                                                  id=""
+                                                  className="w-25 mx-1"
+                                                />
+                                                <input
+                                                  type="text"
+                                                  name=""
+                                                  id=""
+                                                  className="w-25 mx-1"
+                                                />
+                                                <input
+                                                  type="text"
+                                                  name=""
+                                                  id=""
+                                                  className="w-25 mx-1"
+                                                />
+                                                <input
+                                                  type="text"
+                                                  name=""
+                                                  id=""
+                                                  className="w-25 mx-1"
+                                                />
+                                              </div>
+                                              <button type="submit" className="w-100 my-3 w-100 btn btn-dark">Submit</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </Link>
                       </li>
                       <li className="nav-item">
